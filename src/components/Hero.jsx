@@ -12,7 +12,7 @@ const container = (delay) => ({
 
 function Hero() {
   return (
-    <div  className="border-b border-neutral-900 pb-4 lg:mb-35">
+    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
@@ -38,25 +38,24 @@ function Hero() {
               animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tighter"
             >
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab fuga,
-              consequatur perspiciatis quo aspernatur magni iusto officia cum,
-              totam dolores doloremque? Itaque reprehenderit quia repellendus
-              quibusdam accusantium, explicabo aperiam aspernatur nostrum.
-              Voluptatum omnis voluptatibus libero quas obcaecati sunt ea eos,
-              animi inventore rem esse odio aspernatur incidunt, tempora nisi
-              qui.
+              I am a Full Stack developer with 2+ year of experience in the
+              design, development and maintenance of Full Stack web
+              applications. I handle front-end and back-end technologies, with a
+              focus on creating efficient and scalable solutions. Passionate
+              about continuous learning and implementing best practices in
+              software development.
             </motion.p>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
-          <div  className="flex justify-center">
+          <div className="flex justify-center">
             <motion.img
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{
                 duration: 0.8,
                 delay: 0.5,
-                ease: [0, 0.71, 0.2, 1.01]
+                ease: [0, 0.71, 0.2, 1.01],
               }}
               className="rounded-xl"
               src="https://media.istockphoto.com/id/1332100919/vector/man-icon-black-icon-person-symbol.jpg?s=612x612&w=0&k=20&c=AVVJkvxQQCuBhawHrUhDRTCeNQ3Jgt0K1tXjJsFy1eg="
